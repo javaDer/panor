@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tour start="node1">
+    <panorama id="node1">
+        <view fovmode="0" pannorth="0">
+            <start pan="0.5" fov="106" tilt="3.5"/>
+            <min pan="0" fov="5" tilt="-90"/>
+            <max pan="360" fov="120" tilt="90"/>
+        </view>
+        <userdata title="" datetime="2017:12:10 10:05:13" description="" copyright="" tags="" author="" source=""
+                  comment="" info="" longitude="102.580222" latitude="37.994806"/>
+        <hotspots width="180" height="20" wordwrap="1">
+            <label width="180" backgroundalpha="1" enabled="1" height="20" backgroundcolor="0xffffff"
+                   bordercolor="0x000000" border="1" textcolor="0x000000" background="1" borderalpha="1"
+                   borderradius="1" wordwrap="1" textalpha="1"/>
+            <polystyle mode="0" backgroundalpha="0.2509803921568627" backgroundcolor="0x0000ff" bordercolor="0x0000ff"
+                       borderalpha="1"/>
+            <hotspot title="从南门进入园区" target="" pan="11.445" skinid="door" url="{node8}" id="Point01" tilt="-14.0222"/>
+        </hotspots>
+        <media>
+            <sound ambientlevel="0" pansize="0" mode="1" loop="0" field="90" pan="-1" tiltsize="0" id="_background"
+                   level="1" tilt="-1">
+                <source url="Sleep Away.mp3"/>
+            </sound>
+        </media>
+        <input tile0url="./images/index_o_0.jpg" prev5url="./images/index_o_preview_5.jpg"
+               prev4url="./images/index_o_preview_4.jpg" prev3url="./images/index_o_preview_3.jpg"
+               prev2url="./images/index_o_preview_2.jpg" prev1url="./images/index_o_preview_1.jpg"
+               prev0url="./images/index_o_preview_0.jpg" tile5url="./images/index_o_5.jpg"
+               tilesize="2176" tile4url="./images/index_o_4.jpg" tile3url="./images/index_o_3.jpg"
+               tilescale="1.004595588235294" tile2url="./images/index_o_2.jpg"
+               tile1url="./images/index_o_1.jpg">
+            <preview color="0x808080"/>
+        </input>
+        <autorotate speed="0.100" nodedelay="0.00" startloaded="0" returntohorizon="0.000" delay="5.00" noderandom="1"/>
+        <control simulatemass="1" lockedmouse="0" lockedkeyboard="0" dblclickfullscreen="0" invertwheel="0"
+                 lockedwheel="0" invertcontrol="1" speedwheel="1" sensitivity="8"/>
+    </panorama>
+    <panorama id="node2">
+        <view fovmode="0" pannorth="0">
+            <start pan="107" fov="120" tilt="1"/>
+            <min pan="0" fov="5" tilt="-90"/>
+            <max pan="360" fov="120" tilt="90"/>
+        </view>
+        <userdata title="" datetime="2017:12:07 15:18:00" description="" copyright="" tags="" author="" source=""
+                  comment="" info="" longitude="102.580222" latitude="37.994806"/>
+        <hotspots width="180" height="20" wordwrap="1">
+            <label width="180" backgroundalpha="1" enabled="1" height="20" backgroundcolor="0xffffff"
+                   bordercolor="0x000000" border="1" textcolor="0x000000" background="1" borderalpha="1"
+                   borderradius="1" wordwrap="1" textalpha="1"/>
+            <polystyle mode="0" backgroundalpha="0.2509803921568627" backgroundcolor="0x0000ff" bordercolor="0x0000ff"
+                       borderalpha="1"/>
+            <hotspot title="进入仓储物流服务区内" target="" pan="135.75" skinid="inshack" url="{node3}" id="Point01" tilt="-8.97185"/>
+            <hotspot title="宾馆门前" target="" pan="2.72767" skinid="hotel" url="{node8}" id="Point02" tilt="-18.4716"/>
+        </hotspots>
+        <media>
+            <sound ambientlevel="0" pansize="0" mode="1" loop="0" field="90" pan="-1" tiltsize="0" id="_background"
+                   level="1" tilt="-1">
+                <source url="Kalimba.mp3"/>
+            </sound>
+        </media>
+        <input tile0url="./images/huopeng_o_0.jpg" prev5url="./images/huopeng_o_preview_5.jpg"
+               prev4url="./images/huopeng_o_preview_4.jpg" prev3url="./images/huopeng_o_preview_3.jpg"
+               prev2url="./images/huopeng_o_preview_2.jpg" prev1url="./images/huopeng_o_preview_1.jpg"
+               prev0url="./images/huopeng_o_preview_0.jpg" tile5url="./images/huopeng_o_5.jpg"
+               tilesize="2176" tile4url="./images/huopeng_o_4.jpg" tile3url="./images/huopeng_o_3.jpg"
+               tilescale="1.004595588235294" tile2url="./images/huopeng_o_2.jpg"
+               tile1url="./images/huopeng_o_1.jpg">
+            <preview color="0x808080"/>
+        </input>
+        <autorotate speed="0.100" nodedelay="0.00" startloaded="0" returntohorizon="0.000" delay="5.00" noderandom="1"/>
+        <control simulatemass="1" lockedmouse="0" lockedkeyboard="0" dblclickfullscreen="0" invertwheel="0"
+                 lockedwheel="0" invertcontrol="1" speedwheel="1" sensitivity="8"/>
+    </panorama>
+    <panorama id="node3">
+        <view fovmode="0" pannorth="0">
+            <start pan="352.5" fov="120" tilt="0.5"/>
+            <min pan="0" fov="5" tilt="-90"/>
+            <max pan="360" fov="120" tilt="90"/>
+        </view>
+        <userdata title="" datetime="2017:12:07 15:50:42" description="" copyright="" tags="" author="" source=""
+                  comment="" info="" longitude="102.580222" latitude="37.994806"/>
+        <hotspots width="180" height="20" wordwrap="1">
+            <label width="180" backgroundalpha="1" enabled="1" height="20" backgroundcolor="0xffffff"
+                   bordercolor="0x000000" border="1" textcolor="0x000000" background="1" borderalpha="1"
+                   borderradius="1" wordwrap="1" textalpha="1"/>
+            <polystyle mode="0" backgroundalpha="0.2509803921568627" backgroundcolor="0x0000ff" bordercolor="0x0000ff"
+                       borderalpha="1"/>
+            <hotspot title="仓储物流服务区" target="" pan="-92.96769999999999" skinid="仓储物流服务区" url="{node2}" id="Point01"
+                     tilt="-22.9451"/>
+        </hotspots>
+        <media>
+            <sound ambientlevel="0" pansize="0" mode="1" loop="0" field="90" pan="-1" tiltsize="0" id="_background"
+                   level="1" tilt="-1">
+                <source url="Sleep Away.mp3"/>
+            </sound>
+        </media>
+        <input tile0url="./images/inShack_o_0.jpg" prev5url="./images/inShack_o_preview_5.jpg"
+               prev4url="./images/inShack_o_preview_4.jpg" prev3url="./images/inShack_o_preview_3.jpg"
+               prev2url="./images/inShack_o_preview_2.jpg" prev1url="./images/inShack_o_preview_1.jpg"
+               prev0url="./images/inShack_o_preview_0.jpg" tile5url="./images/inShack_o_5.jpg"
+               tilesize="2176" tile4url="./images/inShack_o_4.jpg" tile3url="./images/inShack_o_3.jpg"
+               tilescale="1.004595588235294" tile2url="./images/inShack_o_2.jpg"
+               tile1url="./images/inShack_o_1.jpg">
+            <preview color="0x808080"/>
+        </input>
+        <autorotate speed="0.100" nodedelay="0.00" startloaded="0" returntohorizon="0.000" delay="5.00" noderandom="1"/>
+        <control simulatemass="1" lockedmouse="0" lockedkeyboard="0" dblclickfullscreen="0" invertwheel="0"
+                 lockedwheel="0" invertcontrol="1" speedwheel="1" sensitivity="8"/>
+    </panorama>
+    <panorama id="node4">
+        <view fovmode="0" pannorth="0">
+            <start pan="209.5" fov="120" tilt="-2.5"/>
+            <min pan="0" fov="5" tilt="-90"/>
+            <max pan="360" fov="120" tilt="90"/>
+        </view>
+        <userdata title="" datetime="2017:12:10 10:52:51" description="" copyright="" tags="" author="" source=""
+                  comment="" info="" longitude="102.580222" latitude="37.994806"/>
+        <hotspots width="180" height="20" wordwrap="1">
+            <label width="180" backgroundalpha="1" enabled="1" height="20" backgroundcolor="0xffffff"
+                   bordercolor="0x000000" border="1" textcolor="0x000000" background="1" borderalpha="1"
+                   borderradius="1" wordwrap="1" textalpha="1"/>
+            <polystyle mode="0" backgroundalpha="0.2509803921568627" backgroundcolor="0x0000ff" bordercolor="0x0000ff"
+                       borderalpha="1"/>
+            <hotspot title="宾馆门前" target="" pan="-95.84050000000001" skinid="hotel" url="{node8}" id="Point01"
+                     tilt="-9.245060000000001"/>
+            <hotspot title="修理棚内" target="" pan="84.1138" skinid="xiulipeng" url="{node5}" id="Point02" tilt="-19.934"/>
+        </hotspots>
+        <media>
+            <sound ambientlevel="0" pansize="0" mode="1" loop="0" field="90" pan="-1" tiltsize="0" id="_background"
+                   level="1" tilt="-1">
+                <source url="Sleep Away.mp3"/>
+            </sound>
+        </media>
+        <input tile0url="./images/xiulipeng2_o_0.jpg" prev5url="./images/xiulipeng2_o_preview_5.jpg"
+               prev4url="./images/xiulipeng2_o_preview_4.jpg"
+               prev3url="./images/xiulipeng2_o_preview_3.jpg"
+               prev2url="./images/xiulipeng2_o_preview_2.jpg"
+               prev1url="./images/xiulipeng2_o_preview_1.jpg"
+               prev0url="./images/xiulipeng2_o_preview_0.jpg" tile5url="./images/xiulipeng2_o_5.jpg"
+               tilesize="2176" tile4url="./images/xiulipeng2_o_4.jpg"
+               tile3url="./images/xiulipeng2_o_3.jpg" tilescale="1.004595588235294"
+               tile2url="./images/xiulipeng2_o_2.jpg" tile1url="./images/xiulipeng2_o_1.jpg">
+            <preview color="0x808080"/>
+        </input>
+        <autorotate speed="0.100" nodedelay="0.00" startloaded="0" returntohorizon="0.000" delay="5.00" noderandom="1"/>
+        <control simulatemass="1" lockedmouse="0" lockedkeyboard="0" dblclickfullscreen="0" invertwheel="0"
+                 lockedwheel="0" invertcontrol="1" speedwheel="1" sensitivity="8"/>
+    </panorama>
+    <panorama id="node5">
+        <view fovmode="0" pannorth="0">
+            <start pan="212" fov="120" tilt="-4"/>
+            <min pan="0" fov="5" tilt="-90"/>
+            <max pan="360" fov="120" tilt="90"/>
+        </view>
+        <userdata title="" datetime="2017:12:07 15:16:01" description="" copyright="" tags="" author="" source=""
+                  comment="" info="" longitude="102.580222" latitude="37.994806"/>
+        <hotspots width="180" height="20" wordwrap="1">
+            <label width="180" backgroundalpha="1" enabled="1" height="20" backgroundcolor="0xffffff"
+                   bordercolor="0x000000" border="1" textcolor="0x000000" background="1" borderalpha="1"
+                   borderradius="1" wordwrap="1" textalpha="1"/>
+            <polystyle mode="0" backgroundalpha="0.2509803921568627" backgroundcolor="0x0000ff" bordercolor="0x0000ff"
+                       borderalpha="1"/>
+            <hotspot title="从北门出园区" target="" pan="-96.127" skinid="end" url="{node6}" id="Point01" tilt="-22.2166"/>
+            <hotspot title="修理棚区" target="" pan="82.1884" skinid="xiuliqu" url="{node4}" id="Point02" tilt="-23.6759"/>
+        </hotspots>
+        <media>
+            <sound ambientlevel="0" pansize="0" mode="1" loop="0" field="90" pan="-1" tiltsize="0" id="_background"
+                   level="1" tilt="-1">
+                <source url="Maid with the Flaxen Hair.mp3"/>
+            </sound>
+        </media>
+        <input tile0url="./images/xiulipeng_o_0.jpg" prev5url="./images/xiulipeng_o_preview_5.jpg"
+               prev4url="./images/xiulipeng_o_preview_4.jpg"
+               prev3url="./images/xiulipeng_o_preview_3.jpg"
+               prev2url="./images/xiulipeng_o_preview_2.jpg"
+               prev1url="./images/xiulipeng_o_preview_1.jpg"
+               prev0url="./images/xiulipeng_o_preview_0.jpg" tile5url="./images/xiulipeng_o_5.jpg"
+               tilesize="2176" tile4url="./images/xiulipeng_o_4.jpg"
+               tile3url="./images/xiulipeng_o_3.jpg" tilescale="1.004595588235294"
+               tile2url="./images/xiulipeng_o_2.jpg" tile1url="./images/xiulipeng_o_1.jpg">
+            <preview color="0x808080"/>
+        </input>
+        <autorotate speed="0.100" nodedelay="0.00" startloaded="0" returntohorizon="0.000" delay="5.00" noderandom="1"/>
+        <control simulatemass="1" lockedmouse="0" lockedkeyboard="0" dblclickfullscreen="0" invertwheel="0"
+                 lockedwheel="0" invertcontrol="1" speedwheel="1" sensitivity="8"/>
+    </panorama>
+    <panorama id="node6">
+        <view fovmode="0" pannorth="0">
+            <start pan="5.5" fov="120" tilt="-10"/>
+            <min pan="0" fov="5" tilt="-90"/>
+            <max pan="360" fov="120" tilt="90"/>
+        </view>
+        <userdata title="" datetime="2017:12:10 10:07:25" description="" copyright="" tags="" author="" source=""
+                  comment="" info="" longitude="102.580222" latitude="37.994806"/>
+        <hotspots width="180" height="20" wordwrap="1">
+            <label width="180" backgroundalpha="1" enabled="1" height="20" backgroundcolor="0xffffff"
+                   bordercolor="0x000000" border="1" textcolor="0x000000" background="1" borderalpha="1"
+                   borderradius="1" wordwrap="1" textalpha="1"/>
+            <polystyle mode="0" backgroundalpha="0.2509803921568627" backgroundcolor="0x0000ff" bordercolor="0x0000ff"
+                       borderalpha="1"/>
+            <hotspot title="从北门进入园区" target="" pan="1.96015" skinid="xiulipeng" url="{node5}" id="Point01"
+                     tilt="-21.575"/>
+        </hotspots>
+        <media>
+            <sound ambientlevel="0" pansize="0" mode="1" loop="0" field="90" pan="-1" tiltsize="0" id="_background"
+                   level="1" tilt="-1">
+                <source url="Kalimba.mp3"/>
+            </sound>
+        </media>
+        <input tile0url="./images/end_o_0.jpg" prev5url="./images/end_o_preview_5.jpg"
+               prev4url="./images/end_o_preview_4.jpg" prev3url="./images/end_o_preview_3.jpg"
+               prev2url="./images/end_o_preview_2.jpg" prev1url="./images/end_o_preview_1.jpg"
+               prev0url="./images/end_o_preview_0.jpg" tile5url="./images/end_o_5.jpg" tilesize="2176"
+               tile4url="./images/end_o_4.jpg" tile3url="./images/end_o_3.jpg"
+               tilescale="1.004595588235294" tile2url="./images/end_o_2.jpg"
+               tile1url="./images/end_o_1.jpg">
+            <preview color="0x808080"/>
+        </input>
+        <autorotate speed="0.100" nodedelay="0.00" startloaded="0" returntohorizon="0.000" delay="5.00" noderandom="1"/>
+        <control simulatemass="1" lockedmouse="0" lockedkeyboard="0" dblclickfullscreen="0" invertwheel="0"
+                 lockedwheel="0" invertcontrol="1" speedwheel="1" sensitivity="8"/>
+    </panorama>
+    <panorama id="node7">
+        <view fovmode="0" pannorth="0">
+            <start pan="353.5" fov="120" tilt="-10.5"/>
+            <min pan="0" fov="5" tilt="-90"/>
+            <max pan="360" fov="120" tilt="90"/>
+        </view>
+        <userdata title="" datetime="2017:12:07 15:53:54" description="" copyright="" tags="" author="" source=""
+                  comment="" info="" longitude="102.580222" latitude="37.994806"/>
+        <hotspots width="180" height="20" wordwrap="1">
+            <label width="180" backgroundalpha="1" enabled="1" height="20" backgroundcolor="0xffffff"
+                   bordercolor="0x000000" border="1" textcolor="0x000000" background="1" borderalpha="1"
+                   borderradius="1" wordwrap="1" textalpha="1"/>
+            <polystyle mode="0" backgroundalpha="0.2509803921568627" backgroundcolor="0x0000ff" bordercolor="0x0000ff"
+                       borderalpha="1"/>
+            <hotspot title="宾馆门前" target="" pan="171.198" skinid="hotel" url="{node8}" id="Point01" tilt="-42.5929"/>
+        </hotspots>
+        <media>
+            <sound ambientlevel="0" pansize="0" mode="1" loop="0" field="90" pan="-1" tiltsize="0" id="_background"
+                   level="1" tilt="-1">
+                <source url="Kalimba.mp3"/>
+            </sound>
+        </media>
+        <input tile0url="./images/fushi_o_0.jpg" prev5url="./images/fushi_o_preview_5.jpg"
+               prev4url="./images/fushi_o_preview_4.jpg" prev3url="./images/fushi_o_preview_3.jpg"
+               prev2url="./images/fushi_o_preview_2.jpg" prev1url="./images/fushi_o_preview_1.jpg"
+               prev0url="./images/fushi_o_preview_0.jpg" tile5url="./images/fushi_o_5.jpg"
+               tilesize="2176" tile4url="./images/fushi_o_4.jpg" tile3url="./images/fushi_o_3.jpg"
+               tilescale="1.004595588235294" tile2url="./images/fushi_o_2.jpg"
+               tile1url="./images/fushi_o_1.jpg">
+            <preview color="0x808080"/>
+        </input>
+        <autorotate speed="0.100" nodedelay="0.00" startloaded="0" returntohorizon="0.000" delay="5.00" noderandom="1"/>
+        <control simulatemass="1" lockedmouse="0" lockedkeyboard="0" dblclickfullscreen="0" invertwheel="0"
+                 lockedwheel="0" invertcontrol="1" speedwheel="1" sensitivity="8"/>
+    </panorama>
+    <panorama id="node8">
+        <view fovmode="0" pannorth="0">
+            <start pan="295" fov="102" tilt="-9"/>
+            <min pan="0" fov="5" tilt="-90"/>
+            <max pan="360" fov="120" tilt="90"/>
+        </view>
+        <userdata title="" datetime="2017:12:10 10:08:43" description="" copyright="" tags="" author="" source=""
+                  comment="" info="" longitude="102.580222" latitude="37.994806"/>
+        <hotspots width="180" height="20" wordwrap="1">
+            <label width="180" backgroundalpha="1" enabled="1" height="20" backgroundcolor="0xffffff"
+                   bordercolor="0x000000" border="1" textcolor="0x000000" background="1" borderalpha="1"
+                   borderradius="1" wordwrap="1" textalpha="1"/>
+            <polystyle mode="0" backgroundalpha="0.2509803921568627" backgroundcolor="0x0000ff" bordercolor="0x0000ff"
+                       borderalpha="1"/>
+            <hotspot title="园区俯视图" target="" pan="-63.4466" skinid="fushi" url="{node7}" id="Point01" tilt="-17.3293"/>
+            <hotspot title="仓储物流服务区" target="" pan="-12.6703" skinid="huopeng" url="{node2}" id="Point02" tilt="-11.56"/>
+            <hotspot title="汽车维修综合服务市场" target="" pan="-102.524" skinid="xiuliqu" url="{node4}" id="Point03" tilt="-9.0833"/>
+            <hotspot title="从南门出园区" target="" pan="115.3" skinid="door" url="{node1}" id="Point04" tilt="-15.4996"/>
+        </hotspots>
+        <media>
+            <sound ambientlevel="0" pansize="0" mode="1" loop="0" field="90" pan="-1" tiltsize="0" id="_background"
+                   level="1" tilt="-1">
+                <source url="Maid with the Flaxen Hair.mp3"/>
+            </sound>
+        </media>
+        <input tile0url="./images/hotel_o_0.jpg" prev5url="./images/hotel_o_preview_5.jpg"
+               prev4url="./images/hotel_o_preview_4.jpg" prev3url="./images/hotel_o_preview_3.jpg"
+               prev2url="./images/hotel_o_preview_2.jpg" prev1url="./images/hotel_o_preview_1.jpg"
+               prev0url="./images/hotel_o_preview_0.jpg" tile5url="./images/hotel_o_5.jpg"
+               tilesize="2176" tile4url="./images/hotel_o_4.jpg" tile3url="./images/hotel_o_3.jpg"
+               tilescale="1.004595588235294" tile2url="./images/hotel_o_2.jpg"
+               tile1url="./images/hotel_o_1.jpg">
+            <preview color="0x808080"/>
+        </input>
+        <autorotate speed="0.100" nodedelay="0.00" startloaded="0" returntohorizon="0.000" delay="5.00" noderandom="1"/>
+        <control simulatemass="1" lockedmouse="0" lockedkeyboard="0" dblclickfullscreen="0" invertwheel="0"
+                 lockedwheel="0" invertcontrol="1" speedwheel="1" sensitivity="8"/>
+    </panorama>
+</tour>
