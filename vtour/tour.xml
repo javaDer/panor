@@ -1,4 +1,4 @@
-<krpano version="1.19" title="金沙物流园B区全景展示">
+﻿<krpano version="1.19" title="金沙物流园B区全景展示">
 
 	<include url="skin/vtourskin.xml" />
 
@@ -75,7 +75,7 @@
 
 <scene name="scene_nandamen" title="南大门" onstart="" havevrimage="true" thumburl="panos/nandamen.tiles/thumb.jpg" lat="37.99504167" lng="102.58014167" heading="0.0">
 
-		<view hlookat="2.061" vlookat="-1.988" fovtype="MFOV" fov="98.577" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+		<view hlookat="5.455" vlookat="-5.642" fovtype="MFOV" fov="92.936" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
 
 		<preview url="panos/nandamen.tiles/preview.jpg" />
 
@@ -94,13 +94,13 @@
 		<image prealign="0|0.0|0" if="webvr.isenabled">
 			<cube url="panos/nandamen.tiles/vr/pano_%s.jpg" />
 		</image>
-		<hotspot name="spot1" style="skin_hotspotstyle" ath="0.658" atv="3.854" linkedscene="scene_damennei" />
+		<hotspot name="spot1" style="skin_hotspotstyle" ath="0.972" atv="3.447" linkedscene="scene_damennei" />
 
 	</scene>
 	
 	<scene name="scene_beidamen" title="北大门" onstart="" havevrimage="true" thumburl="panos/beidamen.tiles/thumb.jpg" lat="37.99867222" lng="102.57830278" heading="0.0">
 
-		<view hlookat="-2.660" vlookat="5.089" fovtype="MFOV" fov="113.050" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+		<view hlookat="-5.333" vlookat="0.000" fovtype="MFOV" fov="98.575" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
 
 		<preview url="panos/beidamen.tiles/preview.jpg" />
 
@@ -119,13 +119,13 @@
 		<image prealign="0|0.0|0" if="webvr.isenabled">
 			<cube url="panos/beidamen.tiles/vr/pano_%s.jpg" />
 		</image>
-		<hotspot name="spot1" style="skin_hotspotstyle" ath="0.605" atv="6.979" linkedscene="scene_xiuliqu" />
+		<hotspot name="spot1" style="skin_hotspotstyle" ath="0.149" atv="5.688" linkedscene="scene_xiuliqunei" />
 
 	</scene>
 
 	<scene name="scene_binguan" title="驾驶员生活区" onstart="" havevrimage="true" thumburl="panos/binguan.tiles/thumb.jpg" lat="37.99532500" lng="102.57903333" heading="0.0">
 
-		<view hlookat="19.096" vlookat="6.728" fovtype="MFOV" fov="137.648" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+		<view hlookat="38.401" vlookat="-1.542" fovtype="MFOV" fov="136.214" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
 
 		<preview url="panos/binguan.tiles/preview.jpg" />
 
@@ -144,13 +144,13 @@
 		<image prealign="0|0.0|0" if="webvr.isenabled">
 			<cube url="panos/binguan.tiles/vr/pano_%s.jpg" />
 		</image>
-		<hotspot name="spot1" style="skin_hotspotstyle" ath="-175.898" atv="16.284" linkedscene="scene_damennei" />
+		<hotspot name="spot1" style="skin_hotspotstyle" ath="-178.235" atv="21.283" linkedscene="scene_damennei" />
 
 	</scene>
 
 	<scene name="scene_cangchu" title="仓储物流服务区" onstart="" havevrimage="true" thumburl="panos/cangchu.tiles/thumb.jpg" lat="37.99200694" lng="102.57819500" heading="0.0">
 
-		<view hlookat="222.036" vlookat="1.174" fovtype="MFOV" fov="109.670" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+		<view hlookat="209.196" vlookat="-6.045" fovtype="MFOV" fov="120.000" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
 
 		<preview url="panos/cangchu.tiles/preview.jpg" />
 
@@ -169,14 +169,14 @@
 		<image prealign="0|0.0|0" if="webvr.isenabled">
 			<cube url="panos/cangchu.tiles/vr/pano_%s.jpg" />
 		</image>
-		<hotspot name="spot1" style="skin_hotspotstyle" ath="-163.735" atv="-1.641" linkedscene="scene_cangchunei" />
-		<hotspot name="spot2" style="skin_hotspotstyle" ath="-0.583" atv="-0.548" linkedscene="scene_damennei" />
+		<hotspot name="spot1" style="skin_hotspotstyle" ath="-2.927" atv="10.015" linkedscene="scene_damennei" />
+		<hotspot name="spot2" style="skin_hotspotstyle" ath="-166.937" atv="0.032" linkedscene="scene_cangchunei" />
 
 	</scene>
 
 	<scene name="scene_cangchunei" title="仓储物流服务区内部结构图" onstart="" havevrimage="true" thumburl="panos/cangchunei.tiles/thumb.jpg" lat="37.99231111" lng="102.57893333" heading="0.0">
 
-		<view hlookat="-61.875" vlookat="4.925" fovtype="MFOV" fov="120.000" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="range" vlookatmin="-87.852" vlookatmax="87.852" />
+		<view hlookat="-71.760" vlookat="4.746" fovtype="MFOV" fov="120.000" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="range" vlookatmin="-87.852" vlookatmax="87.852" />
 
 		<preview url="panos/cangchunei.tiles/preview.jpg" />
 
@@ -195,13 +195,13 @@
 		<image prealign="0|0.0|0" if="webvr.isenabled">
 			<cube url="panos/cangchunei.tiles/vr/pano_%s.jpg" />
 		</image>
-		<hotspot name="spot1" style="skin_hotspotstyle" ath="-8.125" atv="5.659" linkedscene="scene_cangchu" />
+		<hotspot name="spot1" style="skin_hotspotstyle" ath="-8.341" atv="7.777" linkedscene="scene_cangchu" />
 
 	</scene>
 
 	<scene name="scene_damennei" title="迎宾大道" onstart="" havevrimage="true" thumburl="panos/damennei.tiles/thumb.jpg" lat="37.99465556" lng="102.57954167" heading="0.0">
 
-		<view hlookat="-76.217" vlookat="7.989" fovtype="MFOV" fov="109.670" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="range" vlookatmin="-88.511" vlookatmax="88.511" />
+		<view hlookat="-81.975" vlookat="-0.133" fovtype="MFOV" fov="87.204" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="range" vlookatmin="-88.511" vlookatmax="88.511" />
 
 		<preview url="panos/damennei.tiles/preview.jpg" />
 
@@ -220,18 +220,42 @@
 		<image prealign="0|0.0|0" if="webvr.isenabled">
 			<cube url="panos/damennei.tiles/vr/pano_%s.jpg" />
 		</image>
-		<hotspot name="spot1" style="skin_hotspotstyle" ath="-81.102" atv="-1.642" linkedscene="scene_binguan" />
-		<hotspot name="spot2" style="skin_hotspotstyle" ath="-103.612" atv="-4.209" linkedscene="scene_xinxizhongxin" />
-		<hotspot name="spot3" style="skin_hotspotstyle" ath="-179.076" atv="-0.872" linkedscene="scene_niaokan" />
-		<hotspot name="spot4" style="skin_hotspotstyle" ath="-127.028" atv="-4.612" linkedscene="scene_xiuliqu" />
-		<hotspot name="spot5" style="skin_hotspotstyle" ath="136.103" atv="-3.321" linkedscene="scene_cangchu" />
+		<hotspot name="spot1" style="skin_hotspotstyle" ath="-78.988" atv="-2.486" linkedscene="scene_binguan" />
+		<hotspot name="spot2" style="skin_hotspotstyle" ath="-102.752" atv="-3.132" linkedscene="scene_xinxizhongxin" />
+		<hotspot name="spot3" style="skin_hotspotstyle" ath="-124.368" atv="-5.390" linkedscene="scene_xiuliqu" />
+		<hotspot name="spot4" style="skin_hotspotstyle" ath="-179.711" atv="-3.125" linkedscene="scene_niaokan" />
+		<hotspot name="spot5" style="skin_hotspotstyle" ath="134.124" atv="-3.679" linkedscene="scene_cangchu" />
+		<hotspot name="spot6" style="skin_hotspotstyle" ath="0.386" atv="3.224" linkedscene="scene_nandamen" />
 
 	</scene>
 
-	
+	<!-- <scene name="scene_nandamen" title="nandamen" onstart="" havevrimage="true" thumburl="panos/nandamen.tiles/thumb.jpg" lat="37.99504167" lng="102.58014167" heading="0.0">
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/nandamen.tiles/preview.jpg" />
+
+		<image type="CUBE" prealign="0|0.0|0" multires="true" tilesize="512" if="!webvr.isenabled">
+			<level tiledimagewidth="2816" tiledimageheight="2816">
+				<cube url="panos/nandamen.tiles/%s/l3/%v/l3_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="1280" tiledimageheight="1280">
+				<cube url="panos/nandamen.tiles/%s/l2/%v/l2_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="640" tiledimageheight="640">
+				<cube url="panos/nandamen.tiles/%s/l1/%v/l1_%s_%v_%h.jpg" />
+			</level>
+		</image>
+
+		<image prealign="0|0.0|0" if="webvr.isenabled">
+			<cube url="panos/nandamen.tiles/vr/pano_%s.jpg" />
+		</image>
+
+	</scene>
+ -->
 	<scene name="scene_niaokan" title="鸟瞰全景" onstart="" havevrimage="true" thumburl="panos/niaokan.tiles/thumb.jpg" lat="37.99457222" lng="102.57830833" heading="0.0">
 
-		<view hlookat="5.542" vlookat="0.209" fovtype="MFOV" fov="120.000" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="range" vlookatmin="-84.570" vlookatmax="84.570" />
+		<view hlookat="148.249" vlookat="7.210" fovtype="MFOV" fov="98.578" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="range" vlookatmin="-84.570" vlookatmax="84.570" />
 
 		<preview url="panos/niaokan.tiles/preview.jpg" />
 
@@ -250,13 +274,13 @@
 		<image prealign="0|0.0|0" if="webvr.isenabled">
 			<cube url="panos/niaokan.tiles/vr/pano_%s.jpg" />
 		</image>
-		<hotspot name="spot1" style="skin_hotspotstyle" ath="-101.895" atv="39.103" linkedscene="scene_damennei" />
+		<hotspot name="spot1" style="skin_hotspotstyle" ath="-97.109" atv="31.878" linkedscene="scene_damennei" />
 
 	</scene>
 
 	<scene name="scene_xinxizhongxin" title="信息中心" onstart="" havevrimage="true" thumburl="panos/xinxizhongxin.tiles/thumb.jpg" lat="37.99263611" lng="102.57905556" heading="0.0">
 
-		<view hlookat="-0.627" vlookat="-0.000" fovtype="MFOV" fov="120.000" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="range" vlookatmin="-87.305" vlookatmax="87.305" />
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="range" vlookatmin="-87.305" vlookatmax="87.305" />
 
 		<preview url="panos/xinxizhongxin.tiles/preview.jpg" />
 
@@ -275,13 +299,13 @@
 		<image prealign="0|0.0|0" if="webvr.isenabled">
 			<cube url="panos/xinxizhongxin.tiles/vr/pano_%s.jpg" />
 		</image>
-		<hotspot name="spot1" style="skin_hotspotstyle" ath="179.475" atv="5.075" linkedscene="scene_damennei" />
+		<hotspot name="spot1" style="skin_hotspotstyle" ath="-179.825" atv="11.731" linkedscene="scene_damennei" />
 
 	</scene>
 
 	<scene name="scene_xiuliqu" title="汽车维修综合服务市场" onstart="" havevrimage="true" thumburl="panos/xiuliqu.tiles/thumb.jpg" lat="37.99669167" lng="102.57647778" heading="0.0">
 
-		<view hlookat="-164.683" vlookat="15.138" fovtype="MFOV" fov="120.000" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+		<view hlookat="270.808" vlookat="-5.985" fovtype="MFOV" fov="98.631" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
 
 		<preview url="panos/xiuliqu.tiles/preview.jpg" />
 
@@ -300,15 +324,14 @@
 		<image prealign="0|0.0|0" if="webvr.isenabled">
 			<cube url="panos/xiuliqu.tiles/vr/pano_%s.jpg" />
 		</image>
-		<hotspot name="spot1" style="skin_hotspotstyle" ath="-172.934" atv="-1.726" linkedscene="scene_xiuliqunei" />
-		<hotspot name="spot2" style="skin_hotspotstyle" ath="95.831" atv="3.855" linkedscene="scene_damennei" />
-		<hotspot name="spot3" style="skin_hotspotstyle" ath="-86.014" atv="-1.064" linkedscene="scene_beidamen" />
+		<hotspot name="spot1" style="skin_hotspotstyle" ath="-85.277" atv="-1.287" linkedscene="scene_xiuliqunei" />
+		<hotspot name="spot2" style="skin_hotspotstyle" ath="95.231" atv="-1.979" linkedscene="scene_damennei" />
 
 	</scene>
 
 	<scene name="scene_xiuliqunei" title="汽车维修综合服务市场内部" onstart="" havevrimage="true" thumburl="panos/xiuliqunei.tiles/thumb.jpg" lat="37.99721667" lng="102.57609167" heading="0.0">
 
-		<view hlookat="-6.627" vlookat="8.052" fovtype="MFOV" fov="120.000" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
 
 		<preview url="panos/xiuliqunei.tiles/preview.jpg" />
 
@@ -327,14 +350,26 @@
 		<image prealign="0|0.0|0" if="webvr.isenabled">
 			<cube url="panos/xiuliqunei.tiles/vr/pano_%s.jpg" />
 		</image>
-		<hotspot name="spot1" style="skin_hotspotstyle" ath="98.273" atv="6.596" linkedscene="scene_beidamen" />
+		<hotspot name="spot1" style="skin_hotspotstyle" ath="98.129" atv="3.596" linkedscene="scene_beidamen" />
+		<hotspot name="spot2" style="skin_hotspotstyle" ath="-83.874" atv="5.897" linkedscene="scene_xiuliqu" />
 
 	</scene>
-	<!--自动旋转-->
-	<autorotate enabled="true"
-				waittime="2.0"
-				speed="-10.0"
-				horizon="0.0"
-	/>
+<autorotate enabled="true"
+waittime="2.0"
+speed="-10.0"
+horizon="0.0"
+/>
+ 
+<events name="onautorotateevents" keep="true" onautorotateoneround="nextscene()"/>
+ 
+<action name="nextscene">
+	autorotate.stop();wait(0);
+	set(ns, get(scene[get(xml.scene)].index));
+	set(maxs, get(scene.count));
+	add(ns,1);
+	if(ns == maxs, set(ns,0));
+	loadscene(get(scene[get(ns)].name), null, MERGE, BLEND(1.5));
+	autorotate.start();
+</action>
 
 </krpano>
