@@ -15,7 +15,7 @@ app.set('view engine', 'html'); // 设置模板引擎
 app.set('views', './views');  // 设置模板相对路径(相对当前目录)
 app.set('views', './vtour');  // 设置模板相对路径(相对当前目录)
 
-app.locals.basedir = './'
+app.locals.basedir = './';
 var port = 8080;  //BAE 百度应用引擎默认端口号
 //中间件定义
 app.use(express.logger());
