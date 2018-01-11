@@ -544,7 +544,7 @@
 		set(view, fovmax=170, limitview=lookto, vlookatmin=90, vlookatmax=90);
 		lookat(calc(lp_hlookat - 180), 90, 150, 1, 0, 0);
 		set(events[lp_events].onloadcomplete,
-			delayedcall(0.5,
+			delayedcall(3,
 				if(lpinfo.scene === xml.scene,
 					set(control.usercontrol, off);
 					set(view, limitview=get(lpinfo.limitview), vlookatmin=null, view.vlookatmax=null);

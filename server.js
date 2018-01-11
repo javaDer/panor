@@ -14,6 +14,7 @@ var app = express();
 app.set('view engine', 'html'); // 设置模板引擎
 app.set('views', './views');  // 设置模板相对路径(相对当前目录)
 app.set('views', './vtour');  // 设置模板相对路径(相对当前目录)
+app.set('views', './jiaxiao');  // 设置模板相对路径(相对当前目录)
 
 app.locals.basedir = './';
 var port = 8080;  //BAE 百度应用引擎默认端口号
@@ -28,6 +29,7 @@ app.use(express.cookieParser());
 
 app.use(express.static('./static'));
 app.use(express.static('./vtour'));
+app.use(express.static('./jiaxiao'));
 
 //启动服务
 app.listen(port, function () {

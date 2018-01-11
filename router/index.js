@@ -8,10 +8,15 @@ exports.init = function (app) {
     var check_sign = require('../sign/check_sign');
 
     var url;
-    app.get('/', function (req, res) {
+    app.get('/b', function (req, res) {
         url = req.protocol + '://' + req.host + req.originalUrl; //获取当前url
         //var url = req.protocol + '://' + req.host + req.path;
         res.sendfile('./vtour/tour.html');
+    });
+    app.get('/j', function (req, res) {
+        url = req.protocol + '://' + req.host + req.originalUrl; //获取当前url
+        //var url = req.protocol + '://' + req.host + req.path;
+        res.sendfile('./jiaxiao/index.html');
     });
     // app.get('/t', function (req, res) {
     //     url = req.protocol + '://' + req.host + req.originalUrl; //获取当前url
